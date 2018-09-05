@@ -4,7 +4,7 @@ LIC_FILES_CHKSUM = "file://LICENSE-2.0.txt;md5=3b83ef96387f14655fc854ddc3c6bd57"
 DEPENDS += "qtbase qtdeclarative qtquickcontrols2 qlibwindowmanager virtual/libhomescreen"
 
 SRC_URI = "git://gerrit.automotivelinux.org/gerrit/src/qtaglextras;protocol=https;branch=${AGL_BRANCH}"
-SRCREV = "${AGL_DEFAULT_REVISION}"
+SRCREV = "57100f64e1813eac59ddc0f2b98641b351fda03b"
 
 PV = "5.8.0+git${SRCPV}"
 S = "${WORKDIR}/git/"

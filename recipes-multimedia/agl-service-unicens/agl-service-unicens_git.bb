@@ -7,7 +7,7 @@ LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://Apache-2.0;md5=89aea4e17d99a7cacdbeed46a0096b10"
 
 SRC_URI = "gitsm://gerrit.automotivelinux.org/gerrit/apps/agl-service-unicens;protocol=https;branch=${AGL_BRANCH}"
-SRCREV = "${AGL_APP_REVISION}"
+SRCREV = "24552c17d18bb703abe256f837c41cf694649f7e"
 
 PV = "0.1+git${SRCPV}"
 S  = "${WORKDIR}/git"

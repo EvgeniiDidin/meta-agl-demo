@@ -9,7 +9,8 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=ae6497158920d9524cf208c09cc4c984 \
                     file://COPYING;md5=751419260aa954499f7abaabaa882bbe"
 
 SRC_URI = "gitsm://gerrit.automotivelinux.org/gerrit/apps/agl-service-radio;protocol=https;branch=${AGL_BRANCH}"
-SRCREV  = "${AGL_APP_REVISION}"
+#SRCREV  = "${AGL_APP_REVISION}"
+SRCREV = "a7d712761a612c1f1199aaf4f31ad6d567e94edf"
 
 PV = "1.0+git${SRCPV}"
 S  = "${WORKDIR}/git"
